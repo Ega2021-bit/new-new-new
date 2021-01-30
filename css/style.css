@@ -12,7 +12,7 @@ body {
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+p, h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
@@ -55,6 +55,26 @@ a {
     color: #62D0DF;
     font-size: 24px;
     line-height: 27px;
+    position: relative;
+}
+
+
+.header-logo:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #F4F9E2;
+    box-shadow: inset 0px -1px 0px #62D0DF;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    display: block;
+    display: none;
+}
+
+.header-logo:hover:after {
+    display: block;
 }
 
 /* Nav  НАВИГАЯЦИЯ*/
@@ -87,6 +107,105 @@ a {
     display: none;
 }
 
-.nav-link:hover::after {
+.nav-link:hover:after {
     display: block;
+}
+
+.contact {
+    width: 150px;
+    height: 50px;
+    position: relative;
+    top: 9px;
+    left: 247px;
+
+}
+
+.contact-btm {
+    font-size: 14px;
+    line-height: 16px;
+    background: #62D0DF;
+    border-radius: 50px;
+    padding: 15px;
+    color: #FFFFFF;
+}
+
+.contact-btm:hover {
+    background-color: #F9B640;
+}
+
+/* inro */
+
+
+
+
+.inro-title {
+    color: #62D0DF;
+    font-size: 24px;
+    line-height: 27px;
+    position: relative;
+    top: 200px;
+}
+
+.inro-title-text {
+    position: relative;
+    top: 240px;
+    width: 435px;
+}
+
+.inro-text {
+    position: relative;
+    top: 295px;
+    width: 495px;
+    font-size: 24px;
+    line-height: 42px;
+
+}
+
+/* button */
+
+.button {
+    position: relative;
+    top: 350px;
+}
+
+.btn {
+    font-size: 16px;
+    line-height: 23px;
+    background: #F9B640;
+    width: 150px;
+    height: 43px;
+    border-style: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.button-who {
+    background-color: #F9B640;
+    color: #fff;
+}
+
+.button-what {
+    background-color: #F4F9E2;
+    color: #F9B640;
+}
+
+.button-who:hover {
+    background-color: #62D0DF;
+}
+
+.button-what:hover {
+    color: #62D0DF;
+}
+
+/* img home */
+
+.img-home {
+    position: relative;
+    left: 607px;
+    top: -337px;
+
+.img-fon {
+    position: relative;
+    top: -815px;
+    left: 152px;
 }
