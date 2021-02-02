@@ -269,3 +269,39 @@ a {
     left: 424px;
 }
 
+.help-options {
+    position: relative;
+    text-align: center;
+    top: -384px;
+    color: rgba(34, 53, 111, 0.5);
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* box */
+
+
+.box-four {
+    display: flex;
+}
+
+.dot {
+    
+
+}
+
+.box {
+    width: 414.5px;
+    height: 414.5px;
+    text-align: center;
+}
+
+
+<ul>
+<div class="box-four">
+<li class="box">Weight Lifting</li>
+<li class="box">Running & Spinning</li>
+<li class="box">Pumping Iron</li>
+<li class="box">Pumping Iron</li>
+</div>
+</ul>
