@@ -249,9 +249,9 @@ a {
     top: 890px;
 }
 
-.bottom-of-new-page {
+/* .bottom-of-new-page {
    
-}
+} */
 
 .about-us {
     position: relative;
@@ -281,27 +281,64 @@ a {
 /* box */
 
 
-.box-four {
+.boxfour {
     display: flex;
-}
-
-.dot {
-    
-
+    position: relative;
+    top: -360px;
 }
 
 .box {
     width: 414.5px;
-    height: 414.5px;
-    text-align: center;
+    height: 360px;
 }
 
+.band {
+    border-top: 1px solid #fff;
+    width: 255px;
+    position: relative;
+    left: 79px;
+    top: 88px;
+    
+}
 
-<ul>
-<div class="box-four">
-<li class="box">Weight Lifting</li>
-<li class="box">Running & Spinning</li>
-<li class="box">Pumping Iron</li>
-<li class="box">Pumping Iron</li>
-</div>
-</ul>
+.dot {
+    width: 9px;
+    height: 9px;
+    border: 5px solid #E9B730;;
+    border-radius: 50%;
+    position: relative;
+    top: 116px;
+    left: 92px;
+}
+
+.box-center {
+    text-align: center;
+    position: relative;
+    top: 95px;
+    color: #FFFFFF;
+    font-size: 32px;
+    line-height: 34px;
+}
+
+/* .box-two-text {
+
+} */
+
+ /* Colour box 1-4 */
+
+
+ .box-one {
+    background: #FFE2DE;
+}
+
+.box-two {
+    background: #C4E769;
+}
+
+.box-three {
+    background: #62D0DF;
+}
+
+.box-four {
+    background: #0052C1;
+}
