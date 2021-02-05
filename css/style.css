@@ -201,7 +201,7 @@ a {
 
 .img-home {
     position: relative;
-    left: 607px;
+    left: 600px;
     top: -337px;
 }
 
@@ -341,4 +341,85 @@ a {
 
 .box-four {
     background: #0052C1;
+}
+
+
+/* Big box start */
+
+
+.six-big-box {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -238px;
+}
+
+.big-box {
+    flex:1 1 calc(33.33% - 30px);
+    height: 480px;
+}
+
+.big-box-text {
+    position: relative;
+    width: 131px;
+    top: 126px;
+    left: 104px;
+    z-index: 2;
+    color: #FFFFFF;
+    font-size: 32px;
+    line-height: 34px;
+}
+
+.big-box-band {
+    border-top: 1px solid #fff;
+    width: 410px;
+    position: relative;
+    top: 99px;
+    left: 72px;
+    z-index: 2;
+}
+
+.big-box-dot {
+    width: 12px;
+    height: 12px;
+    border: 7px solid #E9B730;;
+    border-radius: 50%;
+    position: relative;
+    top: 149px;
+    left: 79px;
+    z-index: 2;
+
+}
+
+.big-box-one {
+    background: #22356F;
+}
+
+.big-box-two {
+    background: #0052C1;
+}
+
+.big-box-three {
+
+}
+
+.big-box-img {
+    width: 100%;
+    height:auto;
+    top: -48px;
+    position: relative;
+    z-index: 0;
+}
+
+.big-box-four {
+    background: #62D0DF;
+}
+
+.big-box-five {
+    background: #DEE1FF;
+}
+
+.big-box-six {
+    background: #8F00FF;
+    z-index: 1;
 }
