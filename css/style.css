@@ -423,3 +423,62 @@ a {
     background: #8F00FF;
     z-index: 1;
 }
+
+
+/* Start mini-box  */
+
+.six-mini-box {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -216px;
+}
+
+.mini-box {
+    height: 240px;
+    flex: 1 1 calc(33.33% - 30px);
+
+}
+
+.mini-box-title {
+    width: 234px;
+    height: 36px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 55px;
+    color: #22356F;
+}
+
+.mini-box-text {
+    font-size: 16px;
+    line-height: 25px;
+    color: rgba(34, 53, 111, 0.5);
+    width: 298px;
+    position: relative;
+    left: 160px;
+    top: 37px;
+}
+
+/* Start statistics */
+
+.statistics {
+
+}
+
+.statistic-img {
+    top: -173px;
+    position: relative;
+}
+
+.title-statistic {
+
+}
+
+.text-statistic {
+
+}
+
+.subtitle-statistic {
+    
+}
